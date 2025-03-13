@@ -1,23 +1,28 @@
-**Abstract**  
-===============  
+Abstract 
+========
 
-**Project Overview**  
+Project Overview
+----------------
 Travdoodle is a web-based application designed to help travelers meticulously plan every single detail of their itinerary. It provides a dedicated platform where users can write, organize, and track essential travel details, including destinations, accommodations, activities, budgets, and packing lists. By offering a structured way to document travel plans, Travdoodle ensures users have a clear roadmap for their trips, reducing the chances of missing important details. The platform is especially useful for individuals who prefer to have a well-documented and customized itinerary, allowing them to maximize their travel experience by planning every aspect of their trip in advance. 
 
 Unlike traditional note-taking apps, which lack travel-specific features, Travdoodle is tailored specifically for itinerary management. It enables users to break down their trip into manageable components and store important travel-related details. With an intuitive interface and efficient backend management, the system ensures that all travel details remain accessible and organized in one place.
 
-**Justification of Project Choice**  
+Justification of Project Choice
+-------------------------------  
 Many travelers face challenges in organizing their travel plans efficiently. Relying on scattered notes, emails, and different applications often leads to overlooked details, last-minute stress, and poor time management during trips. Additionally, traditional paper-based itinerary planning is cumbersome and prone to misplacement. Travdoodle addresses these problems by providing a centralized, digital space where users can write down and refine their travel plans, ensuring a smooth and well-coordinated journey. 
 
 The choice of this project is justified by the increasing reliance on digital tools for travel planning. With the rise of independent travelers, there is a growing need for a customizable itinerary planner that allows individuals to organize every aspect of their trip at their convenience. Unlike existing travel platforms that primarily focus on booking services, Travdoodle emphasizes user-driven itinerary creation, ensuring that travelers maintain control over their schedules and preferences.
 
-**Project Potential** 
+Project Potential
+----------------- 
 Travdoodle has the potential to evolve into a comprehensive travel planner with additional features such as budget tracking, collaborative trip planning, and real-time updates. Future enhancements may include AI-powered suggestions for destinations, automated packing checklists, and calendar synchronization. Integration with third-party services like Google Maps, weather forecasting, and currency converters would further enhance the functionality of the application, making it an indispensable tool for travelers. 
 
-**Workability** 
+Workability
+----------- 
 The application is designed to be user-friendly and accessible across devices. Built with React for a responsive frontend and Flask for a secure backend, it ensures seamless data storage and retrieval. The use of PostgreSQL ensures efficient management of user-generated content, including trip details and notes. The RESTful API architecture enhances the system’s scalability and ensures smooth interaction between the frontend and backend. Security measures, such as user authentication and encrypted storage, ensure that personal travel details remain protected.
 
-- **Challenges:**  
+Challenges
+----------  
   - Designing an intuitive interface that encourages users to document every travel detail while keeping the experience simple and engaging.  
   - Managing travel data effectively, such as flexible itinerary or detination changes and personal notes.  
   - Ensuring smooth synchronization and retrieval of itinerary details across sessions, allowing users to access their plans from multiple devices.  
